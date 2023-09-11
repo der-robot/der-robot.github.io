@@ -1,3 +1,37 @@
+@media screen and (max-width: 810px) {
+    main ul {
+        min-width: 80%;
+    }
+
+    main img {
+        min-width: 30%;
+        max-width: 40%;
+    }
+}
+
+@media screen and (min-width: 810px) and (max-width: 1920px) {
+    main ul {
+        min-width: 30%;
+    }
+
+    main img {
+        min-width: 15%;
+        max-width: 20%;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    main ul {
+        min-width: 20%;
+
+    }
+
+    main img {
+        max-width: 10%;
+
+    }
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -11,15 +45,10 @@ main {
 
 main img {
     border-radius: 50% !important;
-    max-width: 10% !important;
     border-style: solid;
     border-width: 3px;
     border-color: rgb(52, 60, 84);
     margin-bottom: 1em;
-}
-
-main ul {
-    width: 30%;
 }
 
 main li {
